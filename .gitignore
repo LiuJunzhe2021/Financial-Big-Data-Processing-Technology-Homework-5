@@ -1,0 +1,14 @@
+# macOS 和编辑器临时文件
+.DS_Store
+.vscode/
+.idea/
+
+# 老师提供的作业说明保留在本地，不上传到公开仓库
+/作业5.pdf
+
+# Java 编译过程文件；保留 target 中用于提交的 JAR
+*.class
+out/
+build/
+target/*
+!target/*.jar
